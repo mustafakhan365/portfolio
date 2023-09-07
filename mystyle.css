@@ -51,7 +51,7 @@ body {
     line-height: 30px;
 }
 .viewmore {
-    width: 50px;
+    width: 40px;
     cursor: pointer;
     left: 50%;
     transform: translateX(-50%);
