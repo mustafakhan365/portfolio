@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+/*header*/
+.myheader {
+    background-image: url(images/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.mylogo {
+    max-width: 270px;
+}
+.myheader .nav-link {
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: 500;
+    padding: 0 1.4vw !important;
+    position: relative;
+    transition: all 0.3s;
+}
+.myheader .nav-link span {
+    position: absolute;
+    top: -13px;
+    right: 22px;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    color: #C5C7C9;
+}
+.navbar-toggler-icon {
+    background-image: unset;
+    width: 27px;
+    height: 27px;
+}
+.banner {
+    transform: translateY(-50%);
+}
+.banner .mytitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 8vw;
+    line-height: 1;
+    font-weight: 600;
+    text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+}
+.banner .mytagline {
+    font-size: 18px;
+    line-height: 30px;
+}
+.viewmore {
+    width: 50px;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: movingdown linear 0.2s infinite alternate;
+}
+@keyframes movingdown {
+    0%   {bottom: 52px;}
+    50% {bottom: 50px;}
+    100% {bottom: 48px;}
+}
+.closemenu {
+    width: 25px;
+    right: 18px;
+    top: 20px;
+}
+.show .closemenu {
+    display: block !important;
+}
+/*Media Queries*/
+@media(max-width:991px) {
+    .banner .mytagline {
+        font-size: 15px;
+    }
+    .viewmore {
+        width: 35px;
+    }
+    .header .navbar {
+        position: unset;
+    }
+    .header .navbar-nav {
+        position: absolute;
+        width: 80%;
+        left: 0px;
+        top: 0px;
+        background: rgb(249, 249, 249);
+        z-index: 999;
+        height: 100%;
+        padding: 60px 10px;
+    }
+    .myheader .nav-link {
+        color: #000 !important;
+        padding: 5px 20px !important;
+    }
+    .myheader .nav-link span {
+        top: 10px;
+    }
+}
+@media(max-width:767px) {
+    .mylogo {
+        max-width: 200px;
+    }
+}
