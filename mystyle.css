@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 body {
     font-family: 'Roboto Mono', monospace;
+    background: #080808;
 }
 /*header*/
 .myheader {
@@ -37,8 +38,8 @@ body {
     height: 27px;
 }
 .banner {
-    top: 48%;
-    transform: translateY(-48%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 .banner .mytitle {
     font-family: 'Poppins', sans-serif;
@@ -50,13 +51,21 @@ body {
 .banner .mytagline {
     font-size: 18px;
     line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing linear 2s;
+}
+@keyframes typing {
+    0%   {width: 0%;}
+    50% {width: 50%;}
+    100% {bottom: 100%;}
 }
 .viewmore {
     width: 40px;
     cursor: pointer;
     left: 50%;
     transform: translateX(-50%);
-    animation: movingdown linear 0.2s infinite alternate;
+    animation: movingdown linear 0.25s infinite alternate;
 }
 @keyframes movingdown {
     0%   {bottom: 52px;}
@@ -74,7 +83,10 @@ body {
 /*Media Queries*/
 @media(min-width:992px) and (max-width:1200px) {
     .myheader .nav-link {
-        font-size: 16px;
+        font-size: 15px;
+    }
+    .mylogo {
+        max-width: 200px;
     }
 }
 @media(max-width:991px) {
