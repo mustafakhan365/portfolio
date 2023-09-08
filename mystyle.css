@@ -52,12 +52,12 @@ body {
     font-size: 18px;
     line-height: 30px;
     overflow: hidden;
-    animation: typing linear 2.5s forwards;
+    animation: typing linear 5s forwards;
 }
 @keyframes typing {
-    0%   {width: 0%; white-space: nowrap;}
-    50%   {width: 50%; white-space: nowrap;}
-    100% {width: 100%; white-space: normal;}
+    0%   {width: 0%; white-space: nowrap; border-right: 1px solid #fff;}
+    50%   {width: 50%; white-space: nowrap; border-right: 1px solid #fff;}
+    100% {width: 100%; white-space: normal; border-right: 0;}
 }
 .viewmore {
     width: 40px;
