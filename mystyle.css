@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*:hover {
+    transition: all 0.3s;
+}
 body {
     font-family: 'Roboto Mono', monospace;
     background: #080808;
@@ -38,7 +41,7 @@ body {
     height: 27px;
 }
 .banner {
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
 }
 .banner .mytitle {
@@ -79,6 +82,54 @@ body {
 .show .closemenu {
     display: block !important;
 }
+/*Contact*/
+.contactinfocol {
+    background: #000;
+}
+.formcol {
+    background-image: linear-gradient(250deg, #5a72ee 30%, #00a8ff 100%);
+}
+.contacttitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 45px;
+}
+.contactdesc {
+    font-size: 19px;
+    line-height: 25px;
+}
+.contactemail {
+    font-size: 26px;
+    line-height: 43px;
+    background-image: linear-gradient(0deg, #5A72EE 40%, transparent 0%);
+    word-break: break-all;
+}
+.contactemail:hover {
+    background-image: linear-gradient(0deg, #5A72EE 100%, transparent 0%);
+}
+.contactlink {
+    font-size: 20px;
+    line-height: 33px;
+}
+.contactlink:hover {
+    color: #5A72EE !important;
+}
+.mycontact .formcol input, .mycontact .formcol textarea {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    filter: brightness(0.98);
+}
+.mycontact .formcol .btn {
+    font-size: 17px;
+    line-height: 24px;
+    background: #000;
+    width: 170px;
+}
+.mycontact .formcol .btn:hover {
+    background: rgba(0,0,0,0.9);
+}
 /*Media Queries*/
 @media(min-width:992px) and (max-width:1200px) {
     .myheader .nav-link {
@@ -115,9 +166,16 @@ body {
     .myheader .nav-link span {
         top: 10px;
     }
+    .contactcol {
+        width: 100% !important;
+    }
 }
 @media(max-width:767px) {
     .mylogo {
         max-width: 200px;
+    }
+    .contacttitle {
+        font-size: 26px;
+        line-height: 35px;
     }
 }
