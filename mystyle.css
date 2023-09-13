@@ -48,7 +48,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 8vw;
     line-height: 1;
-    font-weight: 600;
     text-shadow: 1px 3px 11px rgba(0,0,0,.3);
 }
 .banner .mytagline {
@@ -92,6 +91,35 @@ body {
     width: 75%;
     padding-right: 15px;
 }
+/*Experience*/
+.experiencetitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    line-height: 68px;
+}
+.worktitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    background: #5A72EE;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.workdesc {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    background: #2b366f;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.experiencetech span {
+    font-size: 13px;
+    line-height: 20px;
+    background: #00a8ff;
+    display: inline-block;
+    margin-bottom: 12px;
+}
 /*Contact*/
 .contactinfocol {
     background: #000;
@@ -129,7 +157,7 @@ body {
     line-height: 25px;
     font-weight: 500;
     border-radius: 5px;
-    filter: brightness(0.98);
+    filter: brightness(0.95);
 }
 .mycontact .formcol .btn {
     font-size: 17px;
@@ -180,6 +208,17 @@ body {
         width: 100% !important;
     }
 }
+@media(min-width:768px) {
+    .workblock {
+        width: 85%;
+    }
+}
+@media(min-width: 768px) and (max-width: 1200px) {
+    .experiencetitle {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
 @media(max-width:767px) {
     .mylogo {
         max-width: 200px;
@@ -187,5 +226,19 @@ body {
     .contacttitle {
         font-size: 26px;
         line-height: 35px;
+    }
+    .experiencetitle {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .worktitle {
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .workdesc {
+        font-size: 14px;
+        line-height: 20px;
     }
 }
