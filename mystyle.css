@@ -8,6 +8,15 @@ body {
     background: #080808;
 }
 /*header*/
+.stickyheader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 9999;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
 .myheader {
     background-image: url(images/banner.jpg);
     background-position: center center;
@@ -19,12 +28,13 @@ body {
     max-width: 270px;
 }
 .myheader .nav-link {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 23px;
     font-weight: 500;
     padding: 0 1.4vw !important;
     position: relative;
     transition: all 0.3s;
+    cursor: pointer;
 }
 .myheader .nav-link span {
     position: absolute;
@@ -46,13 +56,13 @@ body {
 }
 .banner .mytitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 8vw;
+    font-size: 6vw;
     line-height: 1;
     text-shadow: 1px 3px 11px rgba(0,0,0,.3);
 }
 .banner .mytagline {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 28px;
     overflow: hidden;
     animation: typing linear 5s forwards;
 }
@@ -93,8 +103,8 @@ body {
 }
 /*About*/
 .aboutmedesc ul {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 28px;
 }
 .aboutmedesc .f1, .aboutmedesc .f4 {
     background-image: linear-gradient(0deg, #DF058D 40%, transparent 0%);
@@ -122,32 +132,40 @@ body {
 /*Experience*/
 .experiencetitle, .aboutmetitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 62px;
-    line-height: 68px;
+    font-size: 48px;
+    line-height: 56px;
 }
 .worktitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 17px;
-    line-height: 22px;
+    font-size: 15px;
+    line-height: 20px;
     background: #5A72EE;
     padding-left: 30px;
     padding-right: 30px;
 }
 .workdesc {
     font-family: 'Poppins', sans-serif;
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 23px;
     background: #2b366f;
     padding-left: 30px;
     padding-right: 30px;
 }
 .experiencetech span {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 18px;
     background: #00a8ff;
     display: inline-block;
     margin-bottom: 12px;
     color: #fff;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #00A8FF;
+    box-shadow: none;
+}
+.accordion-button::after {
+    position: absolute;
+    right: 15px;
 }
 /*Contact*/
 .contactinfocol {
@@ -158,16 +176,16 @@ body {
 }
 .contacttitle {
     font-family: 'Poppins', sans-serif;
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 32px;
+    line-height: 40px;
 }
 .contactdesc {
-    font-size: 19px;
+    font-size: 17px;
     line-height: 25px;
 }
 .contactemail {
-    font-size: 26px;
-    line-height: 43px;
+    font-size: 24px;
+    line-height: 40px;
     background-image: linear-gradient(0deg, #5A72EE 40%, transparent 0%);
     word-break: break-all;
 }
@@ -175,24 +193,25 @@ body {
     background-image: linear-gradient(0deg, #5A72EE 100%, transparent 0%);
 }
 .contactlink {
-    font-size: 20px;
-    line-height: 33px;
+    font-size: 18px;
+    line-height: 30px;
 }
 .contactlink:hover {
     color: #5A72EE !important;
 }
 .mycontact .formcol input, .mycontact .formcol textarea {
-    font-size: 15px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 23px;
     font-weight: 500;
     border-radius: 5px;
     filter: brightness(0.95);
 }
 .mycontact .formcol .btn {
-    font-size: 17px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 23px;
     background: #000;
     width: 170px;
+    padding: 10px;
 }
 .mycontact .formcol .btn:hover {
     background: rgba(0,0,0,0.9);
@@ -226,6 +245,12 @@ body {
         height: 100%;
         padding: 60px 10px;
     }
+    .stickyheader .navbar-nav {
+        height: 1000px;
+    }
+    .stickyheader .cpbar {
+        display: none;
+    }
     .myheader .nav-link {
         color: #000 !important;
         padding: 5px 20px !important;
@@ -241,11 +266,15 @@ body {
     .workblock {
         width: 85%;
     }
+    .worktitle .duration {
+        position: relative;
+        right: 20px;
+    }
 }
 @media(min-width: 768px) and (max-width: 1200px) {
     .experiencetitle, .aboutmetitle {
-        font-size: 40px;
-        line-height: 48px;
+        font-size: 36px;
+        line-height: 45px;
     }
 }
 @media(max-width:767px) {
@@ -253,8 +282,8 @@ body {
         max-width: 200px;
     }
     .contacttitle {
-        font-size: 26px;
-        line-height: 35px;
+        font-size: 24px;
+        line-height: 33px;
     }
     .experiencetitle, .aboutmetitle {
         font-size: 30px;
@@ -280,5 +309,12 @@ body {
     }
     .codeimg {
         width: 100%;
+    }
+    .contactemail {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .accordion-button::after {
+        bottom: 20px;
     }
 }

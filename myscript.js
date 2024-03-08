@@ -11,4 +11,15 @@ jQuery(document).ready(function() {
         jQuery('.navbar-toggler').addClass('collapsed');
         jQuery('.navbar-toggler').attr('aria-expanded', 'false');
     });
+    checkScroll();
+    $(window).scroll(function() {
+        checkScroll();
+    });
 });
+function checkScroll() {
+    if ($(this).scrollTop() > 150) {
+        $("#menuheader").addClass("stickyheader");
+    } else {
+        $("#menuheader").removeClass("stickyheader");
+    }
+}
