@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "title": "Project 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut quam quis nisi efficitur tempor.",
+      "category": "CMS Web Development",
+      "image": "../images/cityrealtor.png",
+      "link": "project1.html"
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+      "category": "Custom Web Development",
+      "image": "../images/cityrealtor.png",
+      "link": "project2.html"
+    },
+    {
+      "id": 3,
+      "title": "Project 3",
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi.",
+      "category": "Front End Development",
+      "image": "../images/cityrealtor.png",
+      "link": "project3.html"
+    },
+    {
+      "id": 4,
+      "title": "Project 4",
+      "description": "Mauris laoreet nunc eget nisl sollicitudin, vel tincidunt felis consequat.",
+      "category": "CMS Web Development",
+      "image": "../images/cityrealtor.png",
+      "link": "project4.html"
+    }
+  ]

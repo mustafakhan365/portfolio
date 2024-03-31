@@ -7,6 +7,16 @@ body {
     font-family: 'Roboto Mono', monospace;
     background: #080808;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #00A8FF;
+    border-radius: 25px;
+}
 .backtotop {
     bottom: 20px;
     right: 20px;
@@ -182,6 +192,55 @@ body {
     position: absolute;
     right: 15px;
 }
+/*Projects*/
+.myprojects .nav-pills .nav-link, .myprojects .card-title {
+    color: #00A8FF;
+}
+.myprojects .nav-pills .nav-link.active {
+    color: #fff;
+    background: #00A8FF;
+}
+.myprojects .tab-pane div {
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+    row-gap: 18px;
+}
+.myprojects .card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.myprojects .card:hover img {
+    filter: brightness(0.6);
+}
+.myprojects .card:hover .card-text {
+    display: none;
+}
+.myprojects .card:hover .viewproject {
+    display: block !important;
+    animation: slideUp linear 0.25s;
+}
+@keyframes slideUp {
+    0% {transform: translateY(200px);}
+    100% {transform: translateX(0);}
+}
+.myprojects .card .card-text, .myprojects .card .viewproject {
+    font-size: 14px;
+    line-height: 20px;
+}
+.myprojects .card .viewproject:hover {
+    color: #00A8FF !important;
+}
+.myprojects .viewproject:after {
+    content: '';
+    background: #f9f9f9;
+    display: block;
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    left: 140px;
+    margin-top: -11px;
+}
 /*Contact*/
 .contactinfocol {
     background: #000;
@@ -291,6 +350,9 @@ body {
         font-size: 36px;
         line-height: 45px;
     }
+    .myprojects .tab-pane div {
+        grid-template-columns: auto auto;
+    }
 }
 @media(max-width:767px) {
     .mylogo {
@@ -331,5 +393,8 @@ body {
     }
     .accordion-button::after {
         bottom: 20px;
+    }
+    .myprojects .tab-pane div {
+        grid-template-columns: auto;
     }
 }
