@@ -49,6 +49,12 @@ body {
     background-size: cover;
     height: 100vh;
 }
+.myheader .nav-item a:hover {
+    opacity: 0.5;
+}
+.myheader .nav-item.active a {
+    color: #00A8FF !important;
+}
 .mylogo {
     max-width: 270px;
 }
