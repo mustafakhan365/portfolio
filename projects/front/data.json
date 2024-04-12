@@ -1,34 +1,78 @@
 [
   {
-    "id": 1,
+    "id": 9,
+    "allid": "9a",
     "title": "Project 9",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut quam quis nisi efficitur tempor.",
     "category": "CMS Web Development",
     "image": "images/projects/cityrealtor.PNG",
-    "link": "project1.html"
+    "link": "project1.html",
+    "details": {
+      "title": "Project 9",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "tech": "ReactJS, TypeScript",
+      "link": "#",
+      "images": [
+        "images/projects/cityrealtor.PNG",
+        "images/banner.jpg"
+      ]
+    }
   },
   {
-    "id": 2,
+    "id": 10,
+    "allid": "10a",
     "title": "Project 10",
     "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     "category": "Custom Web Development",
     "image": "images/projects/cityrealtor.PNG",
-    "link": "project2.html"
+    "link": "project2.html",
+    "details": {
+      "title": "Project 10",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "tech": "ReactJS, TypeScript",
+      "link": "#",
+      "images": [
+        "images/projects/cityrealtor.PNG",
+        "images/banner.jpg"
+      ]
+    }
   },
   {
-    "id": 3,
+    "id": 11,
+    "allid": "11a",
     "title": "Project 11",
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi.",
     "category": "Front End Development",
     "image": "images/projects/cityrealtor.PNG",
-    "link": "project3.html"
+    "link": "project3.html",
+    "details": {
+      "title": "Project 11",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "tech": "ReactJS, TypeScript",
+      "link": "#",
+      "images": [
+        "images/projects/cityrealtor.PNG",
+        "images/banner.jpg"
+      ]
+    }
   },
   {
-    "id": 4,
+    "id": 12,
+    "allid": "12a",
     "title": "Project 12",
     "description": "Mauris laoreet nunc eget nisl sollicitudin, vel tincidunt felis consequat.",
     "category": "CMS Web Development",
     "image": "images/projects/cityrealtor.PNG",
-    "link": "project4.html"
+    "link": "project4.html",
+    "details": {
+      "title": "Project 12",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "tech": "ReactJS, TypeScript",
+      "link": "#",
+      "images": [
+        "images/projects/cityrealtor.PNG",
+        "images/banner.jpg"
+      ]
+    }
   }
 ]

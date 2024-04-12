@@ -199,12 +199,22 @@ body {
     right: 15px;
 }
 /*Projects*/
+.myprojects .nav-pills {
+    position: sticky;
+    top: 15px;
+    z-index: 10000;
+    background: #080808;
+    width: 100%;
+}
 .myprojects .nav-pills .nav-link, .myprojects .card-title {
     color: #00A8FF;
 }
 .myprojects .nav-pills .nav-link.active {
     color: #fff;
     background: #00A8FF;
+}
+.myprojects .modal {
+    z-index: 10000;
 }
 .myprojects .tab-pane div {
     grid-template-columns: auto auto auto;
