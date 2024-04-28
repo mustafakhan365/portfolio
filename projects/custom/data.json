@@ -2,10 +2,10 @@
   {
     "id": 5,
     "allid": "5a",
-    "title": "Project 5",
+    "title": "Hijabunisa Garments",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut quam quis nisi efficitur tempor.",
     "category": "CMS Web Development",
-    "image": "images/projects/cityrealtor.PNG",
+    "image": "images/projects/hijabunisagarments1.PNG",
     "link": "project1.html",
     "details": {
       "title": "Project 5",
@@ -13,37 +13,18 @@
       "tech": "ReactJS, TypeScript",
       "link": "#",
       "images": [
-        "images/projects/cityrealtor.PNG",
-        "images/banner.jpg"
-      ]
-    }
-  },
-  {
-    "id": 6,
-    "allid": "6a",
-    "title": "Project 6",
-    "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    "category": "Custom Web Development",
-    "image": "images/projects/cityrealtor.PNG",
-    "link": "project2.html",
-    "details": {
-      "title": "Project 6",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
-      "tech": "ReactJS, TypeScript",
-      "link": "#",
-      "images": [
-        "images/projects/cityrealtor.PNG",
-        "images/banner.jpg"
+        "images/projects/hijabunisagarments1.PNG",
+        "images/projects/hijabunisagarments2.PNG"
       ]
     }
   },
   {
     "id": 7,
     "allid": "7a",
-    "title": "Project 7",
+    "title": "Etrade",
     "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi.",
     "category": "Front End Development",
-    "image": "images/projects/cityrealtor.PNG",
+    "image": "images/projects/etrade5.PNG",
     "link": "project3.html",
     "details": {
       "title": "Project 7",
@@ -51,27 +32,32 @@
       "tech": "ReactJS, TypeScript",
       "link": "#",
       "images": [
-        "images/projects/cityrealtor.PNG",
-        "images/banner.jpg"
+        "images/projects/etrade4.PNG",
+        "images/projects/etrade2.PNG",
+        "images/projects/halalhangouts3.PNG",
+        "images/projects/halalhangouts5.PNG",
+        "images/projects/halalhangouts6.PNG",
+        "images/projects/halalhangouts7.PNG",
+        "images/projects/etrade1.PNG"
       ]
     }
   },
   {
-    "id": 8,
-    "allid": "8a",
-    "title": "Project 8",
-    "description": "Mauris laoreet nunc eget nisl sollicitudin, vel tincidunt felis consequat.",
-    "category": "CMS Web Development",
-    "image": "images/projects/cityrealtor.PNG",
-    "link": "project4.html",
+    "id": 6,
+    "allid": "6a",
+    "title": "Social Muslims",
+    "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+    "category": "Custom Web Development",
+    "image": "images/projects/socialmuslims1.PNG",
+    "link": "project2.html",
     "details": {
-      "title": "Project 8",
+      "title": "Project 6",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
       "tech": "ReactJS, TypeScript",
       "link": "#",
       "images": [
-        "images/projects/cityrealtor.PNG",
-        "images/banner.jpg"
+        "images/projects/socialmuslims2.PNG",
+        "images/projects/socialmuslims1.PNG"
       ]
     }
   }

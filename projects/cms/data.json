@@ -2,10 +2,10 @@
     {
       "id": 1,
       "allid": "1a",
-      "title": "Project 1",
+      "title": "City Realtor",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut quam quis nisi efficitur tempor.",
       "category": "CMS Web Development",
-      "image": "images/projects/cityrealtor.PNG",
+      "image": "images/projects/cityrealtor3.PNG",
       "link": "project1.html",
       "details": {
         "title": "Project 1",
@@ -13,18 +13,19 @@
         "tech": "ReactJS, TypeScript",
         "link": "#",
         "images": [
-          "images/projects/cityrealtor.PNG",
-          "images/banner.jpg"
+          "images/projects/cityrealtor1.PNG",
+          "images/projects/cityrealtor2.PNG",
+          "images/projects/cityrealtor4.PNG"
         ]
       }
     },
     {
       "id": 2,
       "allid": "2a",
-      "title": "Project 2",
+      "title": "Bedplay",
       "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
       "category": "Custom Web Development",
-      "image": "images/projects/cityrealtor.PNG",
+      "image": "images/projects/bedplay1.PNG",
       "link": "project2.html",
       "details": {
         "title": "Project 2",
@@ -32,18 +33,19 @@
         "tech": "ReactJS, TypeScript",
         "link": "#",
         "images": [
-          "images/projects/cityrealtor.PNG",
-          "images/banner.jpg"
+          "images/projects/bedplay3.PNG",
+          "images/projects/bedplay2.PNG",
+          "images/projects/bedplay1.PNG"
         ]
       }
     },
     {
       "id": 3,
       "allid": "3a",
-      "title": "Project 3",
+      "title": "Onda",
       "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi.",
       "category": "Front End Development",
-      "image": "images/projects/cityrealtor.PNG",
+      "image": "images/projects/onda2.PNG",
       "link": "project3.html",
       "details": {
         "title": "Project 3",
@@ -51,18 +53,19 @@
         "tech": "ReactJS, TypeScript",
         "link": "#",
         "images": [
-          "images/projects/cityrealtor.PNG",
-          "images/banner.jpg"
+          "images/projects/onda1.PNG",
+          "images/projects/onda2.PNG",
+          "images/projects/onda3.PNG"
         ]
       }
     },
     {
       "id": 4,
       "allid": "4a",
-      "title": "Project 4",
+      "title": "Service King Air",
       "description": "Mauris laoreet nunc eget nisl sollicitudin, vel tincidunt felis consequat.",
       "category": "CMS Web Development",
-      "image": "images/projects/cityrealtor.PNG",
+      "image": "images/projects/serviceking1.PNG",
       "link": "project4.html",
       "details": {
         "title": "Project 4",
@@ -70,8 +73,8 @@
         "tech": "ReactJS, TypeScript",
         "link": "#",
         "images": [
-          "images/projects/cityrealtor.PNG",
-          "images/banner.jpg"
+          "images/projects/serviceking1.PNG",
+          "images/projects/serviceking2.PNG"
         ]
       }
     }
