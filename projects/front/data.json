@@ -21,7 +21,7 @@
   {
     "id": 10,
     "allid": "10a",
-    "title": "Project 10",
+    "title": "Sianty",
     "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     "category": "Custom Web Development",
     "image": "images/projects/cityrealtor.PNG",
@@ -33,7 +33,7 @@
       "link": "#",
       "images": [
         "images/projects/cityrealtor.PNG",
-        "images/banner.jpg"
+        "images/projects/cityrealtor.PNG"
       ]
     }
   },

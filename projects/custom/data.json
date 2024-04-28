@@ -5,7 +5,7 @@
     "title": "Hijabunisa Garments",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut quam quis nisi efficitur tempor.",
     "category": "CMS Web Development",
-    "image": "images/projects/hijabunisagarments1.PNG",
+    "image": "images/projects/hijabunisagarments1.png",
     "link": "project1.html",
     "details": {
       "title": "Project 5",
@@ -13,8 +13,8 @@
       "tech": "ReactJS, TypeScript",
       "link": "#",
       "images": [
-        "images/projects/hijabunisagarments1.PNG",
-        "images/projects/hijabunisagarments2.PNG"
+        "images/projects/hijabunisagarments1.png",
+        "images/projects/hijabunisagarments2.png"
       ]
     }
   },
