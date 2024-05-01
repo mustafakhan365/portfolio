@@ -1,6 +1,11 @@
 jQuery(document).ready(function() {
   jQuery.getJSON('/projects/cms/data.json').then(function(data) {
     jQuery.each(data, function(index, project) {
+      let showLink = project.details.showLink === 'true' ? `
+        <a class="h5 text-decoration-none fw-bold text" href="${project.details.link}" target="_blank" style="padding-left: 2rem;">
+          Open Project 
+          <svg style="width: 30px; cursor: pointer" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512"><path d="m322.7 128.4 100.3 105c6 5.8 9 13.7 9 22.4s-3 16.5-9 22.4L322.7 383.6c-11.9 12.5-31.3 12.5-43.2 0-11.9-12.5-11.9-32.7 0-45.2l48.2-50.4h-217c-17 0-30.7-14.3-30.7-32s13.7-32 30.6-32h217l-48.2-50.4c-11.9-12.5-11.9-32.7 0-45.2 12-12.5 31.3-12.5 43.3 0z" fill="#f8f9fa" class="fill-000000"></path></svg>
+        </a>` : '';
       let card = `
         <div class="card border-0 bg-dark" data-bs-toggle="modal" data-bs-target="#projectsModal${project.id}">
           <img src="${project.image}" class="card-img-top" alt="...">
@@ -30,10 +35,7 @@ jQuery(document).ready(function() {
                         <strong>Tech Stack:</strong> <span class="f2 text-white">${project.details.tech}</span>
                       </li>
                     </ul>
-                    <a class="h5 text-decoration-none fw-bold text" href="${project.details.link}" target="_blank" style="padding-left: 2rem;">
-                      Open Project 
-                      <svg style="width: 30px; cursor: pointer" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512"><path d="m322.7 128.4 100.3 105c6 5.8 9 13.7 9 22.4s-3 16.5-9 22.4L322.7 383.6c-11.9 12.5-31.3 12.5-43.2 0-11.9-12.5-11.9-32.7 0-45.2l48.2-50.4h-217c-17 0-30.7-14.3-30.7-32s13.7-32 30.6-32h217l-48.2-50.4c-11.9-12.5-11.9-32.7 0-45.2 12-12.5 31.3-12.5 43.3 0z" fill="#f8f9fa" class="fill-000000"></path></svg>
-                    </a>
+                    ${showLink}
                   </div>
                 </div>
                 <div class="row">
@@ -45,7 +47,8 @@ jQuery(document).ready(function() {
                 </div>
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn rounded-pill px-4 py-2 fw-medium text-white" data-bs-dismiss="modal" style="background: #00A8FF;">Back</button>
+                <button type="button" class="btn rounded-pill px-4 py-2 fw-medium text-dark bg-white" data-bs-dismiss="modal">Back</button>
+                <button type="button" class="btn rounded-pill px-4 py-2 fw-medium text-white" style="background: #00A8FF; margin-left: -25px"><a class="text-decoration-none text-white" href='https://api.whatsapp.com/send?phone=923009818065' target='_blank'>Contact now</a></button>
               </div>
             </div>
           </div>

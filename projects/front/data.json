@@ -3,15 +3,14 @@
     "id": 9,
     "allid": "9a",
     "title": "NTSC",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut quam quis nisi efficitur tempor.",
-    "category": "CMS Web Development",
+    "category": "ReactJS | Redux | Material UI",
     "image": "images/projects/ntsc1.PNG",
-    "link": "project1.html",
     "details": {
-      "title": "Project 9",
+      "title": "NTSC",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
-      "tech": "ReactJS, TypeScript",
-      "link": "#",
+      "tech": "ReactJS, Redux, Material UI",
+      "link": "https://cms.ntsc.app/",
+      "showLink": "true",
       "images": [
         "images/projects/ntsc1.PNG",
         "images/projects/ntsc2.PNG"
@@ -21,16 +20,15 @@
   {
     "id": 10,
     "allid": "10a",
-    "title": "Sianty",
-    "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-    "category": "Custom Web Development",
+    "title": "SIANTY CMS",
+    "category": "ReactJS | TypeScript | Redux | Material UI",
     "image": "images/projects/cityrealtor.PNG",
-    "link": "project2.html",
     "details": {
-      "title": "Project 10",
+      "title": "SIANTY CMS",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
-      "tech": "ReactJS, TypeScript",
-      "link": "#",
+      "tech": "ReactJS, TypeScript, Redux, Material UI",
+      "link": "",
+      "showLink": "false",
       "images": [
         "images/projects/cityrealtor.PNG",
         "images/projects/cityrealtor.PNG"
@@ -41,15 +39,14 @@
     "id": 11,
     "allid": "11a",
     "title": "Halal Hangouts",
-    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla facilisi.",
-    "category": "Front End Development",
+    "category": "ReactJS | GatsbyJS | Headless CMS | WordPress",
     "image": "images/projects/halalhangouts1.PNG",
-    "link": "project3.html",
     "details": {
-      "title": "Project 11",
+      "title": "Halal Hangouts",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
-      "tech": "ReactJS, TypeScript",
-      "link": "#",
+      "tech": "ReactJS, GatsbyJS, Material UI, WordPress, JavaScript",
+      "link": "https://halalhangouts.co.uk/",
+      "showLink": "true",
       "images": [
         "images/projects/halalhangouts2.PNG",
         "images/projects/halalhangouts1.PNG"
