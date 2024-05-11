@@ -7,7 +7,7 @@
     "image": "images/projects/hijabunisagarments1.png",
     "details": {
       "title": "Hijabunisa Garments",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "description": "Develop & Deploy a Pakistan based clothing ECommerce store (as per already provided design) on ReactJS-WordPress as headless CMS with Front-End built on ReactJS and backend on WordPress/Woocommerce and products data reading with Woocommerce Rest API. Project scope also included namecheap hosting connection to ionos domain with SSL installation/activation.",
       "tech": "ReactJS, PHP, JavaScipt, jQuery, CSS, WordPress",
       "link": "",
       "showLink": "false",
@@ -25,17 +25,13 @@
     "image": "images/projects/etrade5.PNG",
     "details": {
       "title": "Etrade",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "description": "Development of Ecommerce Web Application on Laravel 8.72.0 with Front-End on bootstrap 5.1.3. Create Read Update Delete (CRUD) implementation for products, categories, orders etc. Dyanamically display data on front end for Products, Categories, Single Product, Single Category, Page titles, Checkout etc. Login/Signup system  using Jetstream Livewire. Add to Cart functionality using deryll decode. Laravel logic building (like if product is attached to category, category cannot be deleted).",
       "tech": "Laravel, PHP, JavaScript, jQuery, CSS",
       "link": "",
       "showLink": "false",
       "images": [
         "images/projects/etrade4.PNG",
         "images/projects/etrade2.PNG",
-        "images/projects/halalhangouts3.PNG",
-        "images/projects/halalhangouts5.PNG",
-        "images/projects/halalhangouts6.PNG",
-        "images/projects/halalhangouts7.PNG",
         "images/projects/etrade1.PNG"
       ]
     }
@@ -48,7 +44,7 @@
     "image": "images/projects/socialmuslims1.PNG",
     "details": {
       "title": "Social Muslims",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "description": "UK based Chat application UI/UX enhancement using Material UI, notifications count  implementation, Firebase Sign in authentications, Firebase Forgot Password functionality implementation.",
       "tech": "ReactJS, Material UI, Firebase",
       "link": "",
       "showLink": "false",

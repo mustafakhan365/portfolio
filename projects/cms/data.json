@@ -7,7 +7,7 @@
       "image": "images/projects/cityrealtor3.PNG",
       "details": {
         "title": "City Realtor",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+        "description": "Development of a UK based real estate agency website on WordPress. Project scope also included hosting setup on wpengine and connection to domain with SSL installation/activation. Interactive Enhancements such as development of Stamp Duty Calculator, Mortgage Calculator, Buy to let Calculator using CSS/JS/jQuery. Enhance propertyhive plugin using custom PHP for property listings and property detail page to meet design requirements",
         "tech": "PHP, JavaScript, jQuery, CSS, WordPress",
         "link": "https://cityrealtor.co.uk/",
         "showLink": "true",
@@ -26,7 +26,7 @@
       "image": "images/projects/bedplay1.PNG",
       "details": {
         "title": "Bedplay",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+        "description": "Redevelopment of UK based Ecommerce Affiliate store on OpenCart. Project scope included changing theme and implementing affiliate store functionality complete in all respects using extensions and custom PHP.",
         "tech": "OpenCart, CSS, JavaScript, PHP",
         "link": "https://bedplay.co.uk/",
         "showLink": "true",
@@ -45,10 +45,10 @@
       "image": "images/projects/onda2.PNG",
       "details": {
         "title": "Onda",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+        "description": "Revamped UI/UX of US based clothing Ecommerce store existing website (as per already provided design) on Shopify. Developed Theme pages on page fly builder and deployed them live. Wrote custom liquid code for header menu and Header cart for quantity count side window. Used custom CSS code to match the design. For mobile menu used custom JavaScript code to make Hamburg menu.",
         "tech": "Shopify, Liquid PHP, JavaScript, CSS",
         "link": "https://onda-brand.com/",
-        "showLink": "true",
+        "showLink": "false",
         "images": [
           "images/projects/onda1.PNG",
           "images/projects/onda2.PNG",
@@ -64,7 +64,7 @@
       "image": "images/projects/serviceking1.PNG",
       "details": {
         "title": "Service King Air",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+        "description": "Developed web page for US based HVAC Contracting company on WIX free version. Used custom css/js to meet design requirements as many elements were not available in free version.",
         "tech": "WIX",
         "link": "https://www.servicekingair.net/",
         "showLink": "true",

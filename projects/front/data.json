@@ -7,8 +7,7 @@
     "image": "images/projects/ntsc1.PNG",
     "details": {
       "title": "NTSC",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
-      "tech": "ReactJS, Redux, Material UI",
+      "description": "Develop & maintain large scale ReactJS app using Redux and Material UI. Create Read Update Delete (CRUD) modules by handling complex API's. Create Generic/dynamic components, implement documentation of npm libraries. Resolving complex bugs, problem solving and use analytical skills to provide end-to-end solutions. Coordinate with Project Manager and Dubai based team to get users a seam less experience from the front end side",      "tech": "ReactJS, Redux, Material UI",
       "link": "https://cms.ntsc.app/",
       "showLink": "true",
       "images": [
@@ -22,16 +21,17 @@
     "allid": "10a",
     "title": "SIANTY CMS",
     "category": "ReactJS | TypeScript | Redux | Material UI",
-    "image": "images/projects/cityrealtor.PNG",
+    "image": "images/projects/sianty1.PNG",
     "details": {
       "title": "SIANTY CMS",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "description": "Develop & maintain large scale ReactJS app using Redux, typescript and Material UI. Create Read Update Delete (CRUD) modules by handling complex API's. Create Generic/dynamic components, implement documentation of npm libraries. Resolving complex bugs, problem solving and use analytical skills to provide end-to-end solutions. Coordinate with Project Manager and Dubai based team to get users a seam less experience from the front end side",
       "tech": "ReactJS, TypeScript, Redux, Material UI",
       "link": "",
       "showLink": "false",
       "images": [
-        "images/projects/cityrealtor.PNG",
-        "images/projects/cityrealtor.PNG"
+        "images/projects/sianty2.PNG",
+        "images/projects/sianty3.PNG",
+        "images/projects/sianty1.PNG"
       ]
     }
   },
@@ -43,7 +43,7 @@
     "image": "images/projects/halalhangouts1.PNG",
     "details": {
       "title": "Halal Hangouts",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.",
+      "description": "Develop GatsbyJS-WordPress headless CMS with Front-End built on GatsbyJS and backend on WordPress and blog posts data rendering with GraphQL API.",
       "tech": "ReactJS, GatsbyJS, Material UI, WordPress, JavaScript",
       "link": "https://halalhangouts.co.uk/",
       "showLink": "true",

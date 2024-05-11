@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /images/projects/ntsc1.PNG
+Disallow: /images/projects/ntsc2.PNG
+Disallow: /projects/sianty1.PNG
+Disallow: /projects/sianty2.PNG
+Disallow: /projects/sianty3.PNG
