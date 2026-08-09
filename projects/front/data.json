@@ -4,7 +4,7 @@
     "allid": "9a",
     "title": "NTSC",
     "category": "ReactJS | Redux | Material UI",
-    "image": "images/projects/ntsc3.PNG",
+    "image": "images/projects/ntsc3.png",
     "details": {
       "title": "NTSC",
       "description": "Develop & maintain large scale ReactJS app using Redux and Material UI. Create Read Update Delete (CRUD) modules by handling complex API's. Create Generic/dynamic components, implement documentation of npm libraries. Resolving complex bugs, problem solving and use analytical skills to provide end-to-end solutions. Coordinate with Project Manager and Dubai based team to get users a seam less experience from the front end side",      "tech": "ReactJS, Redux, Material UI",
@@ -13,7 +13,7 @@
       "images": [
         "images/projects/ntsc1.PNG",
         "images/projects/ntsc2.PNG",
-        "images/projects/ntsc3.PNG"
+        "images/projects/ntsc3.png"
       ]
     }
   },
