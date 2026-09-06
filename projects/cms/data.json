@@ -73,5 +73,56 @@
           "images/projects/serviceking2.PNG"
         ]
       }
+    },
+    {
+      "id": 12,
+      "allid": "12a",
+      "title": "Pak Butterfly Society",
+      "category": "WordPress | Custom Development",
+      "image": "images/projects/pakbutterflysociety.jpg",
+      "details": {
+        "title": "Pak Butterfly Society",
+        "description": "Development of a WordPress website for the Pak Butterfly Society to present its conservation work, educational resources, and updates in an accessible public-facing experience.",
+        "tech": "WordPress, PHP, JavaScript, jQuery, CSS",
+        "link": "https://pakbutterflysociety.com/",
+        "showLink": "true",
+        "images": [
+          "images/projects/pakbutterflysociety.jpg"
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "allid": "13a",
+      "title": "Rewilding Indus Library",
+      "category": "WordPress | Custom Development",
+      "image": "images/projects/rewildinginduslibrary.jpg",
+      "details": {
+        "title": "Rewilding Indus Library",
+        "description": "Development of a WordPress website for the Rewilding Indus Library to organize and share resources supporting ecological research, conservation, and rewilding across the Indus region.",
+        "tech": "WordPress, PHP, JavaScript, jQuery, CSS",
+        "link": "https://rewildinginduslibrary.org/",
+        "showLink": "true",
+        "images": [
+          "images/projects/rewildinginduslibrary.jpg"
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "allid": "14a",
+      "title": "Karachi Bird Atlas",
+      "category": "WordPress | Custom Development",
+      "image": "images/projects/karachibirdatlas.jpg",
+      "details": {
+        "title": "Karachi Bird Atlas",
+        "description": "Development of a WordPress website for the Karachi Bird Atlas to showcase local bird species, sightings, and conservation information through a structured digital atlas.",
+        "tech": "WordPress, PHP, JavaScript, jQuery, CSS",
+        "link": "https://karachibirdatlas.com/",
+        "showLink": "true",
+        "images": [
+          "images/projects/karachibirdatlas.jpg"
+        ]
+      }
     }
   ]
